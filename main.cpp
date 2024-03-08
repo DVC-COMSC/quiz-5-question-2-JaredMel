@@ -12,12 +12,13 @@ int main()
    {
       if (i == 0)
       {
-         cout << 1 << ", " << N << ", ";
+         cout << 1 << ", " << N;
       }
       else
       {
+         cout << ", ";
          N2 *= N;
-         cout << N2 << ", ";
+         cout << N2;
       }
    }
    
